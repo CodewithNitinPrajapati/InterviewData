@@ -1,0 +1,148 @@
+[
+  {
+    "question": "Tell me about yourself.",
+    "answer": "Start with your education, key skills, projects or experience, and finish with your career goals aligned to the company role.",
+    "type": "hr",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "Why do you want to join this company?",
+    "answer": "Mention company reputation, learning opportunities, role alignment with your skills, and long‑term growth.",
+    "type": "hr",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is polymorphism in Java?",
+    "answer": "Polymorphism allows one interface to be used for different data types. In Java it is achieved using method overloading and method overriding.",
+    "type": "technical",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Difference between Array and Linked List.",
+    "answer": "Array uses contiguous memory and fixed size, while Linked List uses dynamic memory with nodes connected via pointers.",
+    "type": "technical",
+    "companies": [
+      "tcs",
+      "infosys",
+      "accenture"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Write a program to check palindrome string.",
+    "answer": "Reverse the string and compare with original. If both are same, it is palindrome.",
+    "type": "coding",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Explain OOPs concepts.",
+    "answer": "Four main concepts are Encapsulation, Inheritance, Polymorphism, and Abstraction.",
+    "type": "technical",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What are your strengths and weaknesses?",
+    "answer": "Mention strengths relevant to job role and a genuine weakness with improvement steps.",
+    "type": "hr",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What is SQL JOIN?",
+    "answer": "SQL JOIN combines rows from two or more tables based on a related column between them.",
+    "type": "technical",
+    "companies": [
+      "tcs",
+      "infosys",
+      "accenture"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Difference between GET and POST.",
+    "answer": "GET retrieves data and is visible in URL, while POST sends data securely in request body.",
+    "type": "technical",
+    "companies": [
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Are you willing to relocate or work in shifts?",
+    "answer": "Answer positively showing flexibility and commitment to company requirements.",
+    "type": "hr",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  }
+]
