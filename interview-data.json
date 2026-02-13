@@ -144,5 +144,23 @@
       "fresher"
     ],
     "frequency": "very_high"
+  }, 
+  {
+    "question": "What is polymorphism in Java?",
+    "answer": "Polymorphism allows one interface to take many forms...",
+    "type": "technical",
+    "subject": "java",
+    "companies": ["tcs", "infosys"],
+    "experience": ["fresher"],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is Python list?",
+    "answer": "A list is a mutable ordered collection in Python...",
+    "type": "technical",
+    "subject": "python",
+    "companies": ["tcs", "wipro"],
+    "experience": ["fresher"],
+    "frequency": "high"
   }
 ]
