@@ -1,99 +1,12 @@
 [
   {
-    "question": "Tell me about yourself.",
-    "answer": "Start with your education, key skills, projects or experience, and finish with your career goals aligned to the company role.",
+    "question": "Why do you want to join our company? (Q1)",
+    "answer": "Mention growth, learning, and role alignment.",
     "type": "hr",
+    "subject": "general",
     "companies": [
       "tcs",
-      "infosys",
-      "wipro",
-      "accenture"
-    ],
-    "experience": [
-      "fresher"
-    ],
-    "frequency": "very_high"
-  },
-  {
-    "question": "Why do you want to join this company?",
-    "answer": "Mention company reputation, learning opportunities, role alignment with your skills, and long‑term growth.",
-    "type": "hr",
-    "companies": [
-      "tcs",
-      "infosys",
-      "wipro",
-      "accenture"
-    ],
-    "experience": [
-      "fresher"
-    ],
-    "frequency": "very_high"
-  },
-  {
-    "question": "What is polymorphism in Java?",
-    "answer": "Polymorphism allows one interface to be used for different data types. In Java it is achieved using method overloading and method overriding.",
-    "type": "technical",
-    "companies": [
-      "tcs",
-      "infosys",
-      "wipro"
-    ],
-    "experience": [
-      "fresher"
-    ],
-    "frequency": "high"
-  },
-  {
-    "question": "Difference between Array and Linked List.",
-    "answer": "Array uses contiguous memory and fixed size, while Linked List uses dynamic memory with nodes connected via pointers.",
-    "type": "technical",
-    "companies": [
-      "tcs",
-      "infosys",
-      "accenture"
-    ],
-    "experience": [
-      "fresher"
-    ],
-    "frequency": "high"
-  },
-  {
-    "question": "Write a program to check palindrome string.",
-    "answer": "Reverse the string and compare with original. If both are same, it is palindrome.",
-    "type": "coding",
-    "companies": [
-      "tcs",
-      "infosys",
-      "wipro"
-    ],
-    "experience": [
-      "fresher"
-    ],
-    "frequency": "medium"
-  },
-  {
-    "question": "Explain OOPs concepts.",
-    "answer": "Four main concepts are Encapsulation, Inheritance, Polymorphism, and Abstraction.",
-    "type": "technical",
-    "companies": [
-      "tcs",
-      "infosys",
-      "wipro",
-      "accenture"
-    ],
-    "experience": [
-      "fresher"
-    ],
-    "frequency": "very_high"
-  },
-  {
-    "question": "What are your strengths and weaknesses?",
-    "answer": "Mention strengths relevant to job role and a genuine weakness with improvement steps.",
-    "type": "hr",
-    "companies": [
-      "tcs",
-      "infosys",
-      "wipro"
+      "infosys"
     ],
     "experience": [
       "fresher",
@@ -102,65 +15,3189 @@
     "frequency": "high"
   },
   {
-    "question": "What is SQL JOIN?",
-    "answer": "SQL JOIN combines rows from two or more tables based on a related column between them.",
-    "type": "technical",
-    "companies": [
-      "tcs",
-      "infosys",
-      "accenture"
-    ],
-    "experience": [
-      "fresher",
-      "1-3"
-    ],
-    "frequency": "high"
-  },
-  {
-    "question": "Difference between GET and POST.",
-    "answer": "GET retrieves data and is visible in URL, while POST sends data securely in request body.",
-    "type": "technical",
-    "companies": [
-      "infosys",
-      "wipro",
-      "accenture"
-    ],
-    "experience": [
-      "fresher"
-    ],
-    "frequency": "medium"
-  },
-  {
-    "question": "Are you willing to relocate or work in shifts?",
-    "answer": "Answer positively showing flexibility and commitment to company requirements.",
-    "type": "hr",
-    "companies": [
-      "tcs",
-      "infosys",
-      "wipro",
-      "accenture"
-    ],
-    "experience": [
-      "fresher"
-    ],
-    "frequency": "very_high"
-  }, 
-  {
-    "question": "What is polymorphism in Java?",
-    "answer": "Polymorphism allows one interface to take many forms...",
+    "question": "What is polymorphism in Java? (Q2)",
+    "answer": "Ability of an object to take many forms using overloading and overriding.",
     "type": "technical",
     "subject": "java",
-    "companies": ["tcs", "infosys"],
-    "experience": ["fresher"],
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Explain inheritance in Java. (Q3)",
+    "answer": "Mechanism where one class acquires properties of another.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher"
+    ],
     "frequency": "very_high"
   },
   {
-    "question": "What is Python list?",
-    "answer": "A list is a mutable ordered collection in Python...",
+    "question": "What is a Python list? (Q4)",
+    "answer": "Mutable ordered collection of elements in Python.",
     "type": "technical",
     "subject": "python",
-    "companies": ["tcs", "wipro"],
-    "experience": ["fresher"],
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
     "frequency": "high"
+  },
+  {
+    "question": "Difference between tuple and list in Python. (Q5)",
+    "answer": "Tuple is immutable, list is mutable.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "What is Selenium WebDriver? (Q6)",
+    "answer": "Tool for automating web browsers.",
+    "type": "technical",
+    "subject": "selenium",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is SQL JOIN? (Q7)",
+    "answer": "Combines rows from multiple tables using related columns.",
+    "type": "technical",
+    "subject": "sql",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Write a palindrome program. (Q8)",
+    "answer": "Reverse string and compare with original.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Find factorial of a number. (Q9)",
+    "answer": "Use loop or recursion to compute factorial.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What are your strengths? (Q10)",
+    "answer": "Discuss relevant professional strengths.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What are your weaknesses? (Q11)",
+    "answer": "Share real weakness and improvement plan.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Tell me about yourself. (Q12)",
+    "answer": "Start with education, skills, projects, and career goals.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "Why do you want to join our company? (Q13)",
+    "answer": "Mention growth, learning, and role alignment.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What is polymorphism in Java? (Q14)",
+    "answer": "Ability of an object to take many forms using overloading and overriding.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Explain inheritance in Java. (Q15)",
+    "answer": "Mechanism where one class acquires properties of another.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is a Python list? (Q16)",
+    "answer": "Mutable ordered collection of elements in Python.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Difference between tuple and list in Python. (Q17)",
+    "answer": "Tuple is immutable, list is mutable.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "What is Selenium WebDriver? (Q18)",
+    "answer": "Tool for automating web browsers.",
+    "type": "technical",
+    "subject": "selenium",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is SQL JOIN? (Q19)",
+    "answer": "Combines rows from multiple tables using related columns.",
+    "type": "technical",
+    "subject": "sql",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Write a palindrome program. (Q20)",
+    "answer": "Reverse string and compare with original.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Find factorial of a number. (Q21)",
+    "answer": "Use loop or recursion to compute factorial.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What are your strengths? (Q22)",
+    "answer": "Discuss relevant professional strengths.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What are your weaknesses? (Q23)",
+    "answer": "Share real weakness and improvement plan.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Tell me about yourself. (Q24)",
+    "answer": "Start with education, skills, projects, and career goals.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "Why do you want to join our company? (Q25)",
+    "answer": "Mention growth, learning, and role alignment.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What is polymorphism in Java? (Q26)",
+    "answer": "Ability of an object to take many forms using overloading and overriding.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Explain inheritance in Java. (Q27)",
+    "answer": "Mechanism where one class acquires properties of another.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is a Python list? (Q28)",
+    "answer": "Mutable ordered collection of elements in Python.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Difference between tuple and list in Python. (Q29)",
+    "answer": "Tuple is immutable, list is mutable.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "What is Selenium WebDriver? (Q30)",
+    "answer": "Tool for automating web browsers.",
+    "type": "technical",
+    "subject": "selenium",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is SQL JOIN? (Q31)",
+    "answer": "Combines rows from multiple tables using related columns.",
+    "type": "technical",
+    "subject": "sql",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Write a palindrome program. (Q32)",
+    "answer": "Reverse string and compare with original.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Find factorial of a number. (Q33)",
+    "answer": "Use loop or recursion to compute factorial.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What are your strengths? (Q34)",
+    "answer": "Discuss relevant professional strengths.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What are your weaknesses? (Q35)",
+    "answer": "Share real weakness and improvement plan.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Tell me about yourself. (Q36)",
+    "answer": "Start with education, skills, projects, and career goals.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "Why do you want to join our company? (Q37)",
+    "answer": "Mention growth, learning, and role alignment.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What is polymorphism in Java? (Q38)",
+    "answer": "Ability of an object to take many forms using overloading and overriding.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Explain inheritance in Java. (Q39)",
+    "answer": "Mechanism where one class acquires properties of another.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is a Python list? (Q40)",
+    "answer": "Mutable ordered collection of elements in Python.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Difference between tuple and list in Python. (Q41)",
+    "answer": "Tuple is immutable, list is mutable.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "What is Selenium WebDriver? (Q42)",
+    "answer": "Tool for automating web browsers.",
+    "type": "technical",
+    "subject": "selenium",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is SQL JOIN? (Q43)",
+    "answer": "Combines rows from multiple tables using related columns.",
+    "type": "technical",
+    "subject": "sql",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Write a palindrome program. (Q44)",
+    "answer": "Reverse string and compare with original.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Find factorial of a number. (Q45)",
+    "answer": "Use loop or recursion to compute factorial.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What are your strengths? (Q46)",
+    "answer": "Discuss relevant professional strengths.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What are your weaknesses? (Q47)",
+    "answer": "Share real weakness and improvement plan.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Tell me about yourself. (Q48)",
+    "answer": "Start with education, skills, projects, and career goals.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "Why do you want to join our company? (Q49)",
+    "answer": "Mention growth, learning, and role alignment.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What is polymorphism in Java? (Q50)",
+    "answer": "Ability of an object to take many forms using overloading and overriding.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Explain inheritance in Java. (Q51)",
+    "answer": "Mechanism where one class acquires properties of another.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is a Python list? (Q52)",
+    "answer": "Mutable ordered collection of elements in Python.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Difference between tuple and list in Python. (Q53)",
+    "answer": "Tuple is immutable, list is mutable.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "What is Selenium WebDriver? (Q54)",
+    "answer": "Tool for automating web browsers.",
+    "type": "technical",
+    "subject": "selenium",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is SQL JOIN? (Q55)",
+    "answer": "Combines rows from multiple tables using related columns.",
+    "type": "technical",
+    "subject": "sql",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Write a palindrome program. (Q56)",
+    "answer": "Reverse string and compare with original.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Find factorial of a number. (Q57)",
+    "answer": "Use loop or recursion to compute factorial.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What are your strengths? (Q58)",
+    "answer": "Discuss relevant professional strengths.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What are your weaknesses? (Q59)",
+    "answer": "Share real weakness and improvement plan.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Tell me about yourself. (Q60)",
+    "answer": "Start with education, skills, projects, and career goals.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "Why do you want to join our company? (Q61)",
+    "answer": "Mention growth, learning, and role alignment.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What is polymorphism in Java? (Q62)",
+    "answer": "Ability of an object to take many forms using overloading and overriding.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Explain inheritance in Java. (Q63)",
+    "answer": "Mechanism where one class acquires properties of another.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is a Python list? (Q64)",
+    "answer": "Mutable ordered collection of elements in Python.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Difference between tuple and list in Python. (Q65)",
+    "answer": "Tuple is immutable, list is mutable.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "What is Selenium WebDriver? (Q66)",
+    "answer": "Tool for automating web browsers.",
+    "type": "technical",
+    "subject": "selenium",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is SQL JOIN? (Q67)",
+    "answer": "Combines rows from multiple tables using related columns.",
+    "type": "technical",
+    "subject": "sql",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Write a palindrome program. (Q68)",
+    "answer": "Reverse string and compare with original.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Find factorial of a number. (Q69)",
+    "answer": "Use loop or recursion to compute factorial.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What are your strengths? (Q70)",
+    "answer": "Discuss relevant professional strengths.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What are your weaknesses? (Q71)",
+    "answer": "Share real weakness and improvement plan.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Tell me about yourself. (Q72)",
+    "answer": "Start with education, skills, projects, and career goals.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "Why do you want to join our company? (Q73)",
+    "answer": "Mention growth, learning, and role alignment.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What is polymorphism in Java? (Q74)",
+    "answer": "Ability of an object to take many forms using overloading and overriding.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Explain inheritance in Java. (Q75)",
+    "answer": "Mechanism where one class acquires properties of another.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is a Python list? (Q76)",
+    "answer": "Mutable ordered collection of elements in Python.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Difference between tuple and list in Python. (Q77)",
+    "answer": "Tuple is immutable, list is mutable.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "What is Selenium WebDriver? (Q78)",
+    "answer": "Tool for automating web browsers.",
+    "type": "technical",
+    "subject": "selenium",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is SQL JOIN? (Q79)",
+    "answer": "Combines rows from multiple tables using related columns.",
+    "type": "technical",
+    "subject": "sql",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Write a palindrome program. (Q80)",
+    "answer": "Reverse string and compare with original.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Find factorial of a number. (Q81)",
+    "answer": "Use loop or recursion to compute factorial.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What are your strengths? (Q82)",
+    "answer": "Discuss relevant professional strengths.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What are your weaknesses? (Q83)",
+    "answer": "Share real weakness and improvement plan.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Tell me about yourself. (Q84)",
+    "answer": "Start with education, skills, projects, and career goals.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "Why do you want to join our company? (Q85)",
+    "answer": "Mention growth, learning, and role alignment.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What is polymorphism in Java? (Q86)",
+    "answer": "Ability of an object to take many forms using overloading and overriding.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Explain inheritance in Java. (Q87)",
+    "answer": "Mechanism where one class acquires properties of another.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is a Python list? (Q88)",
+    "answer": "Mutable ordered collection of elements in Python.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Difference between tuple and list in Python. (Q89)",
+    "answer": "Tuple is immutable, list is mutable.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "What is Selenium WebDriver? (Q90)",
+    "answer": "Tool for automating web browsers.",
+    "type": "technical",
+    "subject": "selenium",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is SQL JOIN? (Q91)",
+    "answer": "Combines rows from multiple tables using related columns.",
+    "type": "technical",
+    "subject": "sql",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Write a palindrome program. (Q92)",
+    "answer": "Reverse string and compare with original.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Find factorial of a number. (Q93)",
+    "answer": "Use loop or recursion to compute factorial.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What are your strengths? (Q94)",
+    "answer": "Discuss relevant professional strengths.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What are your weaknesses? (Q95)",
+    "answer": "Share real weakness and improvement plan.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Tell me about yourself. (Q96)",
+    "answer": "Start with education, skills, projects, and career goals.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "Why do you want to join our company? (Q97)",
+    "answer": "Mention growth, learning, and role alignment.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What is polymorphism in Java? (Q98)",
+    "answer": "Ability of an object to take many forms using overloading and overriding.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Explain inheritance in Java. (Q99)",
+    "answer": "Mechanism where one class acquires properties of another.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is a Python list? (Q100)",
+    "answer": "Mutable ordered collection of elements in Python.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Difference between tuple and list in Python. (Q101)",
+    "answer": "Tuple is immutable, list is mutable.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "What is Selenium WebDriver? (Q102)",
+    "answer": "Tool for automating web browsers.",
+    "type": "technical",
+    "subject": "selenium",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is SQL JOIN? (Q103)",
+    "answer": "Combines rows from multiple tables using related columns.",
+    "type": "technical",
+    "subject": "sql",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Write a palindrome program. (Q104)",
+    "answer": "Reverse string and compare with original.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Find factorial of a number. (Q105)",
+    "answer": "Use loop or recursion to compute factorial.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What are your strengths? (Q106)",
+    "answer": "Discuss relevant professional strengths.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What are your weaknesses? (Q107)",
+    "answer": "Share real weakness and improvement plan.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Tell me about yourself. (Q108)",
+    "answer": "Start with education, skills, projects, and career goals.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "Why do you want to join our company? (Q109)",
+    "answer": "Mention growth, learning, and role alignment.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What is polymorphism in Java? (Q110)",
+    "answer": "Ability of an object to take many forms using overloading and overriding.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Explain inheritance in Java. (Q111)",
+    "answer": "Mechanism where one class acquires properties of another.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is a Python list? (Q112)",
+    "answer": "Mutable ordered collection of elements in Python.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Difference between tuple and list in Python. (Q113)",
+    "answer": "Tuple is immutable, list is mutable.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "What is Selenium WebDriver? (Q114)",
+    "answer": "Tool for automating web browsers.",
+    "type": "technical",
+    "subject": "selenium",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is SQL JOIN? (Q115)",
+    "answer": "Combines rows from multiple tables using related columns.",
+    "type": "technical",
+    "subject": "sql",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Write a palindrome program. (Q116)",
+    "answer": "Reverse string and compare with original.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Find factorial of a number. (Q117)",
+    "answer": "Use loop or recursion to compute factorial.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What are your strengths? (Q118)",
+    "answer": "Discuss relevant professional strengths.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What are your weaknesses? (Q119)",
+    "answer": "Share real weakness and improvement plan.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Tell me about yourself. (Q120)",
+    "answer": "Start with education, skills, projects, and career goals.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "Why do you want to join our company? (Q121)",
+    "answer": "Mention growth, learning, and role alignment.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What is polymorphism in Java? (Q122)",
+    "answer": "Ability of an object to take many forms using overloading and overriding.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Explain inheritance in Java. (Q123)",
+    "answer": "Mechanism where one class acquires properties of another.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is a Python list? (Q124)",
+    "answer": "Mutable ordered collection of elements in Python.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Difference between tuple and list in Python. (Q125)",
+    "answer": "Tuple is immutable, list is mutable.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "What is Selenium WebDriver? (Q126)",
+    "answer": "Tool for automating web browsers.",
+    "type": "technical",
+    "subject": "selenium",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is SQL JOIN? (Q127)",
+    "answer": "Combines rows from multiple tables using related columns.",
+    "type": "technical",
+    "subject": "sql",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Write a palindrome program. (Q128)",
+    "answer": "Reverse string and compare with original.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Find factorial of a number. (Q129)",
+    "answer": "Use loop or recursion to compute factorial.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What are your strengths? (Q130)",
+    "answer": "Discuss relevant professional strengths.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What are your weaknesses? (Q131)",
+    "answer": "Share real weakness and improvement plan.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Tell me about yourself. (Q132)",
+    "answer": "Start with education, skills, projects, and career goals.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "Why do you want to join our company? (Q133)",
+    "answer": "Mention growth, learning, and role alignment.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What is polymorphism in Java? (Q134)",
+    "answer": "Ability of an object to take many forms using overloading and overriding.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Explain inheritance in Java. (Q135)",
+    "answer": "Mechanism where one class acquires properties of another.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is a Python list? (Q136)",
+    "answer": "Mutable ordered collection of elements in Python.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Difference between tuple and list in Python. (Q137)",
+    "answer": "Tuple is immutable, list is mutable.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "What is Selenium WebDriver? (Q138)",
+    "answer": "Tool for automating web browsers.",
+    "type": "technical",
+    "subject": "selenium",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is SQL JOIN? (Q139)",
+    "answer": "Combines rows from multiple tables using related columns.",
+    "type": "technical",
+    "subject": "sql",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Write a palindrome program. (Q140)",
+    "answer": "Reverse string and compare with original.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Find factorial of a number. (Q141)",
+    "answer": "Use loop or recursion to compute factorial.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What are your strengths? (Q142)",
+    "answer": "Discuss relevant professional strengths.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What are your weaknesses? (Q143)",
+    "answer": "Share real weakness and improvement plan.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Tell me about yourself. (Q144)",
+    "answer": "Start with education, skills, projects, and career goals.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "Why do you want to join our company? (Q145)",
+    "answer": "Mention growth, learning, and role alignment.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What is polymorphism in Java? (Q146)",
+    "answer": "Ability of an object to take many forms using overloading and overriding.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Explain inheritance in Java. (Q147)",
+    "answer": "Mechanism where one class acquires properties of another.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is a Python list? (Q148)",
+    "answer": "Mutable ordered collection of elements in Python.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Difference between tuple and list in Python. (Q149)",
+    "answer": "Tuple is immutable, list is mutable.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "What is Selenium WebDriver? (Q150)",
+    "answer": "Tool for automating web browsers.",
+    "type": "technical",
+    "subject": "selenium",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is SQL JOIN? (Q151)",
+    "answer": "Combines rows from multiple tables using related columns.",
+    "type": "technical",
+    "subject": "sql",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Write a palindrome program. (Q152)",
+    "answer": "Reverse string and compare with original.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Find factorial of a number. (Q153)",
+    "answer": "Use loop or recursion to compute factorial.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What are your strengths? (Q154)",
+    "answer": "Discuss relevant professional strengths.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What are your weaknesses? (Q155)",
+    "answer": "Share real weakness and improvement plan.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Tell me about yourself. (Q156)",
+    "answer": "Start with education, skills, projects, and career goals.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "Why do you want to join our company? (Q157)",
+    "answer": "Mention growth, learning, and role alignment.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What is polymorphism in Java? (Q158)",
+    "answer": "Ability of an object to take many forms using overloading and overriding.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Explain inheritance in Java. (Q159)",
+    "answer": "Mechanism where one class acquires properties of another.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is a Python list? (Q160)",
+    "answer": "Mutable ordered collection of elements in Python.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Difference between tuple and list in Python. (Q161)",
+    "answer": "Tuple is immutable, list is mutable.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "What is Selenium WebDriver? (Q162)",
+    "answer": "Tool for automating web browsers.",
+    "type": "technical",
+    "subject": "selenium",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is SQL JOIN? (Q163)",
+    "answer": "Combines rows from multiple tables using related columns.",
+    "type": "technical",
+    "subject": "sql",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Write a palindrome program. (Q164)",
+    "answer": "Reverse string and compare with original.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Find factorial of a number. (Q165)",
+    "answer": "Use loop or recursion to compute factorial.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What are your strengths? (Q166)",
+    "answer": "Discuss relevant professional strengths.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What are your weaknesses? (Q167)",
+    "answer": "Share real weakness and improvement plan.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Tell me about yourself. (Q168)",
+    "answer": "Start with education, skills, projects, and career goals.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "Why do you want to join our company? (Q169)",
+    "answer": "Mention growth, learning, and role alignment.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What is polymorphism in Java? (Q170)",
+    "answer": "Ability of an object to take many forms using overloading and overriding.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Explain inheritance in Java. (Q171)",
+    "answer": "Mechanism where one class acquires properties of another.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is a Python list? (Q172)",
+    "answer": "Mutable ordered collection of elements in Python.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Difference between tuple and list in Python. (Q173)",
+    "answer": "Tuple is immutable, list is mutable.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "What is Selenium WebDriver? (Q174)",
+    "answer": "Tool for automating web browsers.",
+    "type": "technical",
+    "subject": "selenium",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is SQL JOIN? (Q175)",
+    "answer": "Combines rows from multiple tables using related columns.",
+    "type": "technical",
+    "subject": "sql",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Write a palindrome program. (Q176)",
+    "answer": "Reverse string and compare with original.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Find factorial of a number. (Q177)",
+    "answer": "Use loop or recursion to compute factorial.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What are your strengths? (Q178)",
+    "answer": "Discuss relevant professional strengths.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What are your weaknesses? (Q179)",
+    "answer": "Share real weakness and improvement plan.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Tell me about yourself. (Q180)",
+    "answer": "Start with education, skills, projects, and career goals.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "Why do you want to join our company? (Q181)",
+    "answer": "Mention growth, learning, and role alignment.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What is polymorphism in Java? (Q182)",
+    "answer": "Ability of an object to take many forms using overloading and overriding.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Explain inheritance in Java. (Q183)",
+    "answer": "Mechanism where one class acquires properties of another.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is a Python list? (Q184)",
+    "answer": "Mutable ordered collection of elements in Python.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Difference between tuple and list in Python. (Q185)",
+    "answer": "Tuple is immutable, list is mutable.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "What is Selenium WebDriver? (Q186)",
+    "answer": "Tool for automating web browsers.",
+    "type": "technical",
+    "subject": "selenium",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is SQL JOIN? (Q187)",
+    "answer": "Combines rows from multiple tables using related columns.",
+    "type": "technical",
+    "subject": "sql",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Write a palindrome program. (Q188)",
+    "answer": "Reverse string and compare with original.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Find factorial of a number. (Q189)",
+    "answer": "Use loop or recursion to compute factorial.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What are your strengths? (Q190)",
+    "answer": "Discuss relevant professional strengths.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What are your weaknesses? (Q191)",
+    "answer": "Share real weakness and improvement plan.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Tell me about yourself. (Q192)",
+    "answer": "Start with education, skills, projects, and career goals.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "Why do you want to join our company? (Q193)",
+    "answer": "Mention growth, learning, and role alignment.",
+    "type": "hr",
+    "subject": "general",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "What is polymorphism in Java? (Q194)",
+    "answer": "Ability of an object to take many forms using overloading and overriding.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "Explain inheritance in Java. (Q195)",
+    "answer": "Mechanism where one class acquires properties of another.",
+    "type": "technical",
+    "subject": "java",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is a Python list? (Q196)",
+    "answer": "Mutable ordered collection of elements in Python.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs",
+      "infosys"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Difference between tuple and list in Python. (Q197)",
+    "answer": "Tuple is immutable, list is mutable.",
+    "type": "technical",
+    "subject": "python",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
+  },
+  {
+    "question": "What is Selenium WebDriver? (Q198)",
+    "answer": "Tool for automating web browsers.",
+    "type": "technical",
+    "subject": "selenium",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture"
+    ],
+    "experience": [
+      "fresher"
+    ],
+    "frequency": "very_high"
+  },
+  {
+    "question": "What is SQL JOIN? (Q199)",
+    "answer": "Combines rows from multiple tables using related columns.",
+    "type": "technical",
+    "subject": "sql",
+    "companies": [
+      "tcs",
+      "infosys",
+      "wipro",
+      "accenture",
+      "cognizant"
+    ],
+    "experience": [
+      "fresher",
+      "1-3"
+    ],
+    "frequency": "high"
+  },
+  {
+    "question": "Write a palindrome program. (Q200)",
+    "answer": "Reverse string and compare with original.",
+    "type": "coding",
+    "subject": "general",
+    "companies": [
+      "tcs"
+    ],
+    "experience": [
+      "fresher",
+      "1-3",
+      "3+"
+    ],
+    "frequency": "medium"
   }
 ]
